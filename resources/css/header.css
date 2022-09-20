@@ -37,23 +37,23 @@
 
 /* Image-Path */
 .image-1 {
-  background-image: url("/resources/images/pexels-evgeny-tchebotarev-2337927.jpg");
+  background-image: url("../images/pexels-evgeny-tchebotarev-2337927.jpg");
 }
 
 .image-2 {
-  background-image: url("/resources/images/pexels-brett-sayles-4212936.jpg");
+  background-image: url("../images/pexels-brett-sayles-4212936.jpg");
 }
 
 .image-3 {
-  background-image: url("/resources/images/pexels-brett-sayles-992734.jpg");
+  background-image: url("../images/pexels-brett-sayles-992734.jpg");
 }
 
 .image-4 {
-  background-image: url("/resources/images/pexels-luriko-yamaguchi-1827399.jpg");
+  background-image: url("../images/pexels-luriko-yamaguchi-1827399.jpg");
 }
 
 .image-5 {
-  background-image: url("/resources/images/pexels-taryn-elliott-4652245.jpg");
+  background-image: url("../images/pexels-taryn-elliott-4652245.jpg");
 }
 
 /* ---------------------------- */
