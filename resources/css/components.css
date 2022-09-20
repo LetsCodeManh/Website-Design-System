@@ -1,0 +1,94 @@
+/* ------------------ */
+/* Components Section */
+/* ------------------ */
+
+/* Navbar */
+.navbar {
+  margin: 0 auto;
+}
+
+.navbar ul {
+  flex-direction: column;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-inline: 1rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.navbar a::before,
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #ef9eba;
+
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 250ms ease-in-out;
+}
+
+.navbar a::before {
+  bottom: -4px;
+}
+
+.navbar a::after {
+  top: -4px;
+}
+
+.navbar a:hover::before,
+.navbar a:hover::after {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+/* Button */
+.button-container {
+  margin: 0 auto;
+}
+
+.button-container div {
+  flex-direction: column;
+}
+
+.btn {
+  padding: 1rem 1.5rem;
+  font-size: 1.25rem;
+  background-color: #121212;
+  border: 2px solid #121212;
+  border-radius: 10px;
+  margin-inline: 1rem;
+  color: #ef9eba;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn.active,
+.btn:hover {
+  background-color: #ef9eba;
+  color: #121212;
+}
+
+.style-container:hover .btn {
+  background-color: #f6cdde;
+  color: #121212;
+  border-color: #ef9eba;
+}
+
+.style-container:hover .btn.active,
+.style-container:hover .btn:hover {
+  background-color: #121212;
+  color: #ef9eba;
+}

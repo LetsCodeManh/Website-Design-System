@@ -1,0 +1,136 @@
+/* ----------------- */
+/* Section Structure */
+/* ----------------- */
+.design-section {
+  z-index: 9999;
+}
+
+#colors.design-section,
+#text-style.design-section {
+  background: #121212;
+  color: #ef9eba;
+  box-shadow: 0 2px 0 0 #ef9eba;
+}
+
+#fonts.design-section,
+#components.design-section {
+  background: #fef9fc;
+  color: #491b40;
+  box-shadow: 0 2px 0 0 #491b40;
+
+  --sec-border: #491b40;
+}
+
+.section-border {
+  width: 90%;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 2px solid var(--sec-border, #ef9eba);
+  border-radius: 1rem;
+}
+
+.section-header {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+/* Styling for each Container */
+.style-container {
+  --gap: 0.75rem;
+
+  padding: 1rem;
+  font-size: 1.125rem;
+  border-radius: 6px;
+}
+
+.text-aside {
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.trans-black,
+.trans-light {
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.trans-black {
+  border: 2px solid #491b40;
+}
+
+.trans-black:hover {
+  background-color: #121212;
+  color: #ef9eba;
+  border-color: #ef9eba;
+}
+
+.trans-light {
+  border: 2px solid #ef9eba;
+}
+
+.trans-light:hover {
+  background-color: #fef9fc;
+  color: #491b40;
+  border-color: #491b40;
+}
+
+.container-name {
+  text-decoration: none;
+  cursor: pointer;
+
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  position: relative;
+
+  transition: color 250ms ease-in-out;
+}
+
+.trans-black .container-name {
+  color: #491b40;
+}
+
+.trans-light .container-name {
+  color: #ef9eba;
+}
+
+.trans-black:hover .container-name {
+  color: #ef9eba;
+}
+
+.trans-light:hover .container-name {
+  color: #491b40;
+}
+
+.container-name::before {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+
+  height: 2px;
+  width: 100%;
+
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 250ms ease-in-out;
+}
+
+.trans-black .container-name::before {
+  background: #ef9eba;
+}
+
+.trans-light .container-name::before {
+  background: #491b40;
+}
+
+.container-name:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+.font-style {
+  font-size: 0.875rem;
+}

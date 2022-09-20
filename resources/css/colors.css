@@ -1,0 +1,90 @@
+/* -------------- */
+/* Colors Section */
+/* -------------- */
+
+.carousel-pink,
+.azalea,
+.wewak,
+.tapestry,
+.wine-berry,
+.cod-gray {
+  transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
+}
+
+/* Carousel Pink */
+.carousel-pink {
+  background-color: #fef9fc;
+  color: #491b40;
+
+  border: 2px solid #491b40; /* Wine Berry Border */
+}
+
+.carousel-pink:hover {
+  background-color: #491b40;
+  color: #fef9fc;
+}
+
+/* Azalea */
+.azalea {
+  background-color: #f6cdde;
+  color: #491b40;
+
+  border: 2px solid #491b40; /* Wine Berry Border */
+}
+
+.azalea:hover {
+  background-color: #491b40;
+  color: #f6cdde;
+}
+
+/* Wewak */
+.wewak {
+  background-color: #ef9eba;
+  color: #121212;
+
+  border: 2px solid #121212; /* Cod Gray */
+}
+
+.wewak:hover {
+  background-color: #121212;
+  color: #ef9eba;
+}
+
+/* Tapestry */
+.tapestry {
+  background-color: #b0617f;
+  color: #fef9fc;
+
+  border: 2px solid #fef9fc; /* Carousel Pink */
+}
+
+.tapestry:hover {
+  background-color: #fef9fc;
+  color: #b0617f;
+}
+
+/* Wine Berry */
+.wine-berry {
+  background-color: #491b40;
+  color: #fef9fc;
+
+  border: 2px solid #fef9fc; /* Carousel Pink */
+}
+
+.wine-berry:hover {
+  background-color: #fef9fc;
+  color: #491b40;
+}
+
+/* Cod Gray */
+.cod-gray {
+  background-color: #121212;
+  color: #fef9fc;
+
+  border: 2px solid #fef9fc; /* Carousel Pink */
+}
+
+.cod-gray:hover {
+  background-color: #fef9fc;
+  color: #121212;
+}

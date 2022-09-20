@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap, 1.5rem);
+}
+
+.grid-autofit {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  --gap: 2rem;
+}
+
+.grid-autofit-2 {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  --gap: 2rem;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1.5rem);
+}
+
+.justify-content-sb {
+  justify-content: space-between;
+}

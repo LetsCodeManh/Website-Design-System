@@ -1,0 +1,71 @@
+/* ------------- */
+/* Fonts Section */
+/* ------------- */
+
+.ff-quicksand {
+  font-family: "Quicksand", sans-serif;
+}
+
+.ff-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.ff-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.ff-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.fs-h1 {
+  font-size: 3rem;
+}
+
+.fs-h2 {
+  font-size: 1.75rem;
+}
+
+.fs-h3 {
+  font-size: 1.25rem;
+}
+
+.fs-sub {
+  font-size: 1.5rem;
+}
+
+.fs-p {
+  font-size: 1.125rem;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 2px;
+}
+
+.letter-spacing-2 {
+  letter-spacing: 1px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
+}

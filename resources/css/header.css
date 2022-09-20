@@ -1,0 +1,103 @@
+/* ---------------- */
+/* Background-Image */
+/* ---------------- */
+.bg-image {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+  z-index: -9999;
+}
+
+.image-1,
+.image-5 {
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.4);
+
+  height: 100vh;
+}
+
+.image-1,
+.image-3 {
+  box-shadow: inset 0 -2px 0 0 #ef9eba;
+}
+
+.image-2,
+.image-4 {
+  box-shadow: inset 0 -2px 0 0 #491b40;
+}
+
+.image-2,
+.image-3,
+.image-4 {
+  height: 33vh;
+}
+
+/* Image-Path */
+.image-1 {
+  background-image: url("/resources/images/pexels-evgeny-tchebotarev-2337927.jpg");
+}
+
+.image-2 {
+  background-image: url("/resources/images/pexels-brett-sayles-4212936.jpg");
+}
+
+.image-3 {
+  background-image: url("/resources/images/pexels-brett-sayles-992734.jpg");
+}
+
+.image-4 {
+  background-image: url("/resources/images/pexels-luriko-yamaguchi-1827399.jpg");
+}
+
+.image-5 {
+  background-image: url("/resources/images/pexels-taryn-elliott-4652245.jpg");
+}
+
+/* ---------------------------- */
+/* Header & Footer Text Styling */
+/* ---------------------------- */
+.hero-container,
+.footer-container {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+  color: #f6cdde;
+}
+
+.hero-container {
+  position: fixed;
+}
+
+.footer-container {
+  position: absolute;
+}
+
+.hero-header {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.hero-subheader {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.hero-text {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.line {
+  margin: 1rem auto;
+  height: 2px;
+  width: 250px;
+  background-color: #f6cdde;
+}
